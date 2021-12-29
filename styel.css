@@ -1,0 +1,213 @@
+         *{
+            font-family: 'Noto Serif', serif;
+        }
+
+        .navbar{
+                background-color:#e2c2b996 !important;
+            }
+           
+            a:hover{
+               color:#109fac !important;
+               transition: all .5s ease-in-out;
+            }
+         #all {
+             background-image: url(img/BG.jpg);
+             background-position: center;
+             background-size: cover;
+             height: 100vh;
+         }
+         .lineHight {
+             line-height: 2rem;
+         }
+         .layout {
+             background-color: rgba(0, 0, 0, 0.616);
+             width: 100%;
+             height: 100vh;
+         }
+         nav {
+             background-color: transparent !important;
+         }
+         label {
+             color: rgb(248, 253, 255);
+             font-size: 20px;
+         }
+         #name,
+         #age,
+         #email,
+         #password,
+         #repassword {
+             background-color: transparent;
+             color: white;
+             font-size: large;
+             border-top: none;
+             border-left: none;
+             border-right: none;
+             cursor: pointer;
+         }
+         /* second section */
+         .second-section {
+             background-image: url(img/bgg.jpg);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-size: cover;
+             height: 80vh;
+         } 
+         .layer {
+             width: 100%;
+             height: 100%;
+             background-color: rgba(0, 0, 0, 0.52);
+         }
+         /* about us*/
+         .scroll {
+             width: 30px;
+             height: 45px;
+             bottom: 10%;
+             left: 50%;
+             transform: translateX(-50%);
+             animation: scroll 2s infinite;
+             z-index: 1;
+             cursor: pointer;
+         }
+         #home .scroll::after {
+             content: "";
+             width: 20px;
+             height: 20px;
+             background-color: white;
+             position: absolute;
+             left: 50%;
+             border-radius: 50%;
+             bottom: 7px;
+             transform: translateX(-50%);
+         }
+         @keyframes scroll {
+             0% {
+                 bottom: 10%;
+             }
+             25% {
+                 bottom: 11%;
+             }
+             50% {
+                 bottom: 12%;
+             }
+             75% {
+                 bottom: 13%;
+             }
+             100% {
+                 bottom: 10%;
+             }
+         }
+         /* articels */
+         
+         .h2-art:after {
+             content: "";
+             width:100px;
+             height: 4px;
+             background-color: rgb(39, 143, 184);
+             position: absolute;
+             top: 100px;
+             right: 47%;
+         }
+         
+         .h2-art1:after {
+             content: "";
+             width: 100px;
+             height: 4px;
+             background-color: rgb(39, 143, 184);
+             position: absolute;
+             top: 150px;
+             right: 47%;
+         }
+         /* activites */
+         
+         .item {
+             position: relative;
+             cursor: pointer;
+         }
+         h2{
+             color:  #109fac;
+         }
+         ::selection {
+            background: #bef0f5;
+          }
+         
+         .caption-item {
+             background-color: #e2c2b996;
+             position: absolute;
+             width: 80%;
+             left: 10%;
+             bottom: 20px;
+         }
+         
+         .styletext {
+             text-decoration: none;
+         }
+         
+         .lightBox {
+             position: fixed;
+             top: 0;
+             bottom: 0;
+             left: 0;
+             right: 0;
+             background-color: rgba(69, 78, 77, 0.397);
+         }
+         
+         .lightbox-item {
+             width: 50%;
+             height: 500px;
+             background-image: url(img/BG.jpg);
+             background-position: center;
+             position: relative;
+         }
+         
+         .lightbox-item i {
+             cursor: pointer;
+             margin: .2rem;
+         }
+         
+         #close {
+             position: absolute;
+             top: 20px;
+             right: 10px;
+         }
+         /* footer */
+         
+         .last-footer {
+             background-color: #fbd1c5fd;
+             padding: 20px;
+         }
+         
+         .span-ho-ic:hover {
+             color: #109fac !important;
+             cursor: pointer;
+         }
+         
+         .ho-sp:hover a {
+             color: #109fac !important;
+             cursor: pointer;
+         }
+         .myimg{
+             width: 100%;
+             height: 100%;
+         }
+         .myLayer {
+             display: flex;
+             color: white;
+            text-align: center;         
+            justify-content: center;
+             width: 100%;
+             height: 100%;
+             position: absolute;
+             background-color: #e2c2b97e;
+             top: 0;
+             left: 0;
+             right: 0;
+             bottom: 0;
+             opacity: 0;
+         }
+         
+         .myLayer:hover {
+             opacity: 1;
+             transition: all ease 2s;
+         }
+        

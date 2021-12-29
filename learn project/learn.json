@@ -1,0 +1,146 @@
+
+
+{
+   "mydata":[
+{
+   "id":"CAT",
+   "img": "images/cat.jpg"
+},
+
+{
+   "id":"FOX",
+   "img":"images/FOX.jpg"
+
+},
+
+{
+   "id":"ZEBRA",
+   "img":"images/ZEBRA.jpg"
+
+},
+
+{
+   "id":"LION",
+   "img":"images/LION.jpg"
+
+},
+{
+   "id":"DOLPHINS",
+   "img":"images/DOLPHINS.jpg"
+
+},
+
+{
+  "id":"HORSE",
+  "img":"images/HORSE.jpg"
+
+},
+
+{
+ "id":"KINGFISHER",
+ "img":"images/KINGFISHER.jpg"
+},
+
+{
+   "id":"DONKEY",
+   "img":"images/donkey.jpg"
+  },
+  {
+   "id":"KAMEL",
+   "img":"images/kamel.jpg"
+  },
+  {
+   "id":"DOG",
+   "img":"images/dog.jpg"
+  },
+  {
+   "id":"FROG",
+   "img":"images/frog.jpg"
+  },
+  
+  {
+   "id":"CAW",
+   "img":"images/caw.jpg"
+  },
+  {
+   "id":"MONKEY",
+   "img":"images/monkey.jpg"
+  },
+  {
+   "id":"HEN",
+   "img":"images/hen.jpg"
+  },
+  {
+   "id":"BEAR",
+   "img":"images/bear.jpg"
+  },
+  {
+   "id":"TIGER",
+   "img":"images/tiger.jpg"
+  },
+  {
+   "id":"MOUSE",
+   "img":"images/mouse.jpg"
+  },
+  {
+   "id":"BARROT",
+   "img":"images/barrot.jpg"
+  },
+  {
+   "id":"DEER",
+   "img":"images/deer.jpg"
+  },
+  {
+   "id":"PENGUN",
+   "img":"images/pengun.jpg"
+  },
+
+  {
+   "id":"GIRAFFE",
+   "img":"images/GIRAFFE.jpg"
+  },
+  {
+   "id":"TURTLE",
+   "img":"images/TURTLE.jpg"
+  },
+  {
+   "id":"GOAT",
+   "img":"images/goat.jpg"
+  },
+  {
+   "id":"SHEEP",
+   "img":"images/sheep.jpg"
+  },
+  {
+   "id":"EAGLE",
+   "img":"images/Eagle.jpg"
+  },
+  {
+   "id":"FLAMINGO",
+   "img":"images/flamingo.jpg"
+  },
+  {
+   "id":"RHINOCEROS",
+   "img":"images/rhinoceros.jpg"
+  },
+  {
+   "id":"RABBIT",
+   "img":"images/rabbit.jpg"
+  },
+  {
+   "id":"ELEPHANT",
+   "img":"images/elephant.jpg"
+  },
+  {
+   "id":"PEACO",
+   "img":"images/peacock.jpg"
+  },
+  {
+   "id":"CROCODILE",
+   "img":"images/crocodile.jpg"
+  }
+
+
+  
+
+]}

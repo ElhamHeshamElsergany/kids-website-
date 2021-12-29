@@ -1,0 +1,81 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration page</title>
+    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="allpage" id="all">
+        <div class="layout">
+            <nav class="text-white mb-2 shadow-lg py-2 d-flex justify-content-evenly">
+                <h4 class="text-white ">POGY & TAMTAM</h4>
+                <ul class="list-unstyled text-dark d-flex justify-content-between">
+                    <li class="px-2 "><a class="text-decoration-none text-white" href="http://127.0.0.1:5501/signin.html"> SIGNIN</a></li>
+                    <li class="px-2 ">
+                        <a href="http://127.0.0.1:5501/contact.html" class=" text-white text-decoration-none">CONTACT US</a>
+                    </li>
+                    <ul class="list-unstyled d-flex text-white ">
+                        <li class="mx-3 text-white"> <a href="https://www.facebook.com/ " target="_blank "><i
+                                    class="fab fa-facebook-f "></i></a></li>
+                        <li class="mx-3 text-white"><a href="https://twitter.com/twitter?lang=ar " target="_blank "><i
+                                    class="fab fa-youtube "></i></a></li>
+                        <li class="mx-3 text-white"><a href="https://www.instagram.com/ " target="_blank "><i
+                                    class="fab fa-instagram "></i></a></li>
+                    </ul>
+                </ul>
+
+            </nav>
+
+            <!-- regestration form -->
+            <div class="w-50 mx-auto py-4 shadow-lg p-1 mb-3 rounded ">
+                <h2 class="my-2 text-white">SingUp Now</h2>
+
+                <form class="form1" action="http://127.0.0.1:5501/home.html">
+
+                    <div class="d-flex my-5">
+                        <label for="Name " class="mt-1 w-25">kid Name</label>
+                        <input type="text " id='name' class="form-control ">
+                        <span id="alertName" class="text-danger d-none h5 w-25">invalid name</span>
+                    </div>
+
+                    <div class="d-flex my-5">
+                        <label for="age" class="mt-1 w-25"> Age</label>
+                        <input type="text " id="age" class="form-control ">
+                        <span id="alertAge" class="text-danger d-none h5 w-25">invalid Age</span>
+                    </div>
+
+                    <div class="d-flex my-5">
+                        <label for="Email" class="mt-1 w-25"> parent E-mail</label>
+                        <input id="Email" type="email " class="form-control ">
+                        <span id="alertEmail" class="text-danger d-none h5 w-25">invalid Email</span>
+
+                    </div>
+
+                    <div class="d-flex my-5">
+                        <label for="password" class="mt-1 w-25"> password</label>
+                        <input id="password" type="password" class="form-control ">
+                        <span id="alertPassword" class="text-danger d-none h5 w-25">invalid pass</span>
+                    </div>
+                    <div class="d-flex my-5">
+                        <label for="repassword" class="mt-1 w-25"> Repassword</label>
+                        <input id="repassword" type="password" class="form-control ">
+                        <span id="alertrePassword" class="text-danger d-none h5 w-25">password not match</span>
+
+                    </div>
+                    <button class="btn btn-info mt-3 w-25 text-white " id='button'>Sign UP</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+    <script src="js/bootstrap.bundle.min.js "></script>
+</body>
+
+</html>

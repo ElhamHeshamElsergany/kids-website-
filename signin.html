@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display:ital,wght@0,400;1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="allpage" id="all">
+
+        <div class="layout">
+            <nav class="text-white mb-2 shadow-lg py-2 d-flex justify-content-evenly">
+                <h4 class="text-white ">POGY & TAMTAM</h4>
+                <ul class="list-unstyled text-dark d-flex justify-content-between">
+                    <li class="px-2 "><a class="text-decoration-none text-white" href="http://127.0.0.1:5502/index.html"> SINGUP</a></li>
+                    <li class="px-2 ">
+                        <a href="" class=" text-white text-decoration-none">CONTACT US</a>
+                    </li>
+                    <ul class="list-unstyled d-flex text-white ">
+                        <li class="mx-3 text-white"> <a href="https://www.facebook.com/ " target="_blank "><i
+                                    class="fab fa-facebook-f "></i></a></li>
+                        <li class="mx-3 text-white"><a href="https://twitter.com/twitter?lang=ar " target="_blank "><i
+                                    class="fab fa-twitter "></i></a></li>
+                        <li class="mx-3 text-white"><a href="https://www.instagram.com/ " target="_blank "><i
+                                    class="fab fa-instagram "></i></a></li>
+                    </ul>
+                </ul>
+            </nav>
+            <div class="w-50 mx-auto py-5">
+
+            </div>
+            <form action="http://127.0.0.1:5501/home.html">
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="inputForm w-75 m-5 p-5 ">
+                            <h2 class="my-4 text-center">login Now</h2>
+                            <div class="form-group">
+                                <label for="email" class="text-white">E-mail:</label>
+                                <input type="email" name="email" id="logInEmail" class="form-control my-2 p-2"
+                                    placeholder="Enter your email">
+                                <div id="emailAlert" class="alert alert-danger my-2 d-none ">The Email is Invalid</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="text-white">password:</label>
+
+                                <input type="password" name="password" id="logInPass" class="form-control my-2 p-2"
+                                    placeholder="Enter your password">
+                                <div id="passAlert" class="alert alert-danger my-2 d-none ">The password is Invalid
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="alert text-danger pt-3 d-none" id="checkInput">The Email or Password is
+                                    not existing</div>
+                                <a id="logInButton" class="btn btn-outline-info btn-block p-3 mt-4">login</a>
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="SIGNIN.JS"></script>
+    <script src="signup.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

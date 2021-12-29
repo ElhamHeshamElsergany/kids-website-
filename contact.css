@@ -1,0 +1,17 @@
+body{
+
+    font-family: 'Noto Serif', serif;
+
+}
+nav{
+    background-color:#e2c2b9 !important;
+}
+.imgcontact{
+    width: 10%;
+    cursor: pointer;
+}
+.imgcontact:hover{
+    transform: scale(1.4);
+    width: 15%;
+    transition: all 1s;
+}

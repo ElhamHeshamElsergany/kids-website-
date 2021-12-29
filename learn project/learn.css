@@ -1,0 +1,172 @@
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+body{
+
+        font-family: 'Noto Serif', serif;
+    
+}
+
+.groundimage{
+        background-image: url(images/kid1.jpg);
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+        
+   
+}
+
+.titl{
+        border: black solid 2px;   
+        text-align: center;
+        width: 50%;
+        margin-top: 20px;
+        margin-left: 320px;
+        margin-bottom: 20PX;
+        border-radius: 30px;
+        color: #043b41;
+        border-color: rgb(171, 176, 236);
+        background-color:#fff2effd
+    
+}
+.container{
+        padding-left: 170px;  
+        padding-right: 170px;
+        display:grid;
+        grid-template-columns: 2fr 4fr 2fr;
+        gap: 25px;
+        justify-content: center;
+    
+    
+    }
+
+    .btn{
+       
+        background-color: rgb(204, 208, 243);
+        padding: 4px ;
+        border-radius: 30px;
+        border-color: rgb(74, 87, 231);
+        
+        
+        }
+  
+
+    .innerbtn {
+       
+        background-color: rgb(204, 208, 243);
+       padding: 4px ;
+       margin-top: 80px;
+       margin-left: 50px;
+       width: 100px;
+       border-radius: 30px;
+       border-color: rgb(74, 87, 231);
+       
+
+    }   
+    
+    .titl2{
+        border: black solid 2px;  
+        color: #043b41;
+        border-color: rgb(171, 176, 236);
+        background-color:#fff2effd;
+        text-align: center;
+        width: 50%;
+        font-size: 28حء;
+        border-radius: 30px;
+        margin-top: 10px;
+        margin-left: 130px;
+        margin-bottom: 20PX;
+
+    }
+    .tit3{
+        font-size: 50;
+        border: black solid 2px;   
+        text-align: center;
+        margin-top: 70px;
+        margin-left: 100px;
+        margin-right: 100px;
+        border-radius: 40px;
+        color: #043b41;
+        border-color: rgb(171, 176, 236);
+        background-color:#fff2effd;
+
+    }
+
+    .Arrangewords{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr  ;
+        gap:10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+
+    .word{
+        padding: 1.25;  
+        background-color:#f5c6bcfd;
+        border-radius: 15px;
+        border-color:rgb(171, 176, 236); 
+        font-weight: bold;
+        text-align: center;
+    
+
+    }
+ .containbtn{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:15px;
+        justify-content: center;
+        margin-top: 20px;
+    
+    }
+
+ .outborder{
+
+        border: 5px solid black;
+        border-radius: 30px;
+        border-color: rgb(74, 87, 231);
+        height: 410px;
+        
+        
+        };  
+
+ .innerimage{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap:15px; 
+        }
+ .getchar{
+        padding-top: 10px;
+
+
+ }
+
+ .svgrandom{
+      
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 70px;
+        justify-content: center;
+        
+      
+ }
+ 
+ .box{
+     width: 1000px;
+     height: 1100px;
+     margin: auto;
+    border-width: 10px;
+    border-style: solid;
+    border-image: radial-gradient(rgb(242, 220, 192),rgb(171, 176, 236)) 1;
+    margin-top: 60px; 
+
+
+ }        
+
+ .innertext{
+font-size: 20;
+
+
+ }

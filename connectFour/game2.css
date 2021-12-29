@@ -1,0 +1,66 @@
+:root{
+    --dark-color: #109fac;
+    --main-color: #e2c2b9fd;
+}
+
+body{
+    font-family: 'Noto Serif', serif;
+}
+.title{
+    margin-top: 70px;
+    color: var(--dark-color);
+}
+.grid{
+    border: 2px solid var(--dark-color);
+    height: 480px;
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    /* background-color: blue; */
+}
+#result{
+    color: var(--dark-color);
+}
+.grid div{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* background-color: #fff; */
+    
+}
+
+.player-one{
+    background-color: var(--dark-color);
+    border-radius: 20px;
+}
+
+.player-two{
+    background-color: var(--main-color);
+    border-radius: 20px;
+}
+.reset{
+    display: flex;
+    /* height: 10px; */
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+}
+.playAgain{
+    display: inline-block;
+    border: none;
+    outline: none;
+    background-color: var(--dark-color);
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 20px auto;
+    
+}
+button{
+    border: 0;
+    outline: 0;
+    background-color: var(--dark-color);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}

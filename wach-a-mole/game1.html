@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wach-a Game</title>
+    <link rel="stylesheet" href="game1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="center">
+            <h3>Your Score</h3>
+            <div id="score">0</div>
+
+        </div>
+
+        <div class="center">
+            <h3>Time Left</h3>
+            <div id="time-left"></div>
+        </div>
+        
+
+        <div class="high center">
+            <h3> Latest High Score</h3>
+            <div id="highScores"></div>
+        </div>
+
+        
+        
+    </div>
+    <div id="d1"></div>
+    
+    <audio autoplay id="myAudio">
+        <source src="aud.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="playAudio()">Play Music</button>
+    <button onclick="muteAudio()">Mute Music</button>
+    <div class="grid">
+        
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+    </div>
+
+    <script src="game1.js"></script>
+</body>
+</html>
